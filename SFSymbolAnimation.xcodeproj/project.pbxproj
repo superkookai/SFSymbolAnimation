@@ -11,6 +11,12 @@
 		BFFF6EF62B85925C005B368F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6EF52B85925C005B368F /* ContentView.swift */; };
 		BFFF6EF82B85925D005B368F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFF6EF72B85925D005B368F /* Assets.xcassets */; };
 		BFFF6EFC2B85925D005B368F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFF6EFB2B85925D005B368F /* Preview Assets.xcassets */; };
+		BFFF6F032B85938E005B368F /* SFSymbolAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6F022B85938E005B368F /* SFSymbolAnimation.swift */; };
+		BFFF6F052B859ABC005B368F /* SFSymbolContentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6F042B859ABC005B368F /* SFSymbolContentTransition.swift */; };
+		BFFF6F072B85A085005B368F /* PhaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6F062B85A085005B368F /* PhaseAnimation.swift */; };
+		BFFF6F092B85A834005B368F /* PhaseAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6F082B85A834005B368F /* PhaseAnimation2.swift */; };
+		BFFF6F0B2B85AB59005B368F /* PhaseAnimation3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6F0A2B85AB59005B368F /* PhaseAnimation3.swift */; };
+		BFFF6F0D2B85AFA6005B368F /* KeyFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF6F0C2B85AFA6005B368F /* KeyFrameAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		BFFF6EF72B85925D005B368F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFF6EF92B85925D005B368F /* SFSymbolAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SFSymbolAnimation.entitlements; sourceTree = "<group>"; };
 		BFFF6EFB2B85925D005B368F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFFF6F022B85938E005B368F /* SFSymbolAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolAnimation.swift; sourceTree = "<group>"; };
+		BFFF6F042B859ABC005B368F /* SFSymbolContentTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolContentTransition.swift; sourceTree = "<group>"; };
+		BFFF6F062B85A085005B368F /* PhaseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimation.swift; sourceTree = "<group>"; };
+		BFFF6F082B85A834005B368F /* PhaseAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimation2.swift; sourceTree = "<group>"; };
+		BFFF6F0A2B85AB59005B368F /* PhaseAnimation3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimation3.swift; sourceTree = "<group>"; };
+		BFFF6F0C2B85AFA6005B368F /* KeyFrameAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				BFFF6EF32B85925C005B368F /* SFSymbolAnimationApp.swift */,
 				BFFF6EF52B85925C005B368F /* ContentView.swift */,
+				BFFF6F022B85938E005B368F /* SFSymbolAnimation.swift */,
+				BFFF6F042B859ABC005B368F /* SFSymbolContentTransition.swift */,
+				BFFF6F062B85A085005B368F /* PhaseAnimation.swift */,
+				BFFF6F082B85A834005B368F /* PhaseAnimation2.swift */,
+				BFFF6F0A2B85AB59005B368F /* PhaseAnimation3.swift */,
+				BFFF6F0C2B85AFA6005B368F /* KeyFrameAnimation.swift */,
 				BFFF6EF72B85925D005B368F /* Assets.xcassets */,
 				BFFF6EF92B85925D005B368F /* SFSymbolAnimation.entitlements */,
 				BFFF6EFA2B85925D005B368F /* Preview Content */,
@@ -139,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFF6F0B2B85AB59005B368F /* PhaseAnimation3.swift in Sources */,
+				BFFF6F032B85938E005B368F /* SFSymbolAnimation.swift in Sources */,
 				BFFF6EF62B85925C005B368F /* ContentView.swift in Sources */,
+				BFFF6F072B85A085005B368F /* PhaseAnimation.swift in Sources */,
+				BFFF6F092B85A834005B368F /* PhaseAnimation2.swift in Sources */,
 				BFFF6EF42B85925C005B368F /* SFSymbolAnimationApp.swift in Sources */,
+				BFFF6F0D2B85AFA6005B368F /* KeyFrameAnimation.swift in Sources */,
+				BFFF6F052B859ABC005B368F /* SFSymbolContentTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
